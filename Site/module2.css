@@ -1,0 +1,51 @@
+/* For mobile phones: */
+[class*="col-"] {
+    width: 95%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .col-s-6 {width: 45%;}
+    .col-s-12 {width: 93%;}
+  }
+
+  @media only screen and (min-width: 992px) {
+    .col-4 {width: 30%;}
+  }
+
+#menu{
+    margin-left: 45%;
+}
+
+div p{
+    padding: 5px ;
+}
+
+h4{
+    text-align: center;
+    text-decoration: bold;
+    border: black 2px solid;
+    width: 80px;
+    margin-top: -2px;
+    float: right;
+}
+
+div div {
+    border: black 2px solid;
+    background-color: rgb(173, 170, 170);
+    float: left;
+    margin: 10px;
+}
+
+#chicken{
+    background-color: rgb(241, 126, 174);
+}
+
+#beef{
+    background-color: rgb(223, 76, 76);
+    color: white;
+}
+
+#sushi{
+    background-color: khaki;
+}
+
